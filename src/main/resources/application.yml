@@ -1,0 +1,16 @@
+---
+spring:
+  main:
+    banner-mode: 'OFF'
+
+parallelism: 7
+
+# Available commands: GENERATE_TEST_FILES, RUN_STREAM_API
+command: RUN_STREAM_API
+
+source-dir: "C:\\work\\pfp\\input\\"
+destination-dir: "C:\\work\\pfp\\output\\"
+
+generate-test-files:
+  num-of-files: 20
+  num-of-lines: 10000
